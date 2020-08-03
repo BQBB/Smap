@@ -1,0 +1,42 @@
+.img-fluid{
+    max-width: 25%;
+    border-radius: 1000px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+form{
+    
+    padding:0 25px 25px ;
+    background-color: #ffffff;
+}
+.rad{
+    margin: 2px;
+    border-radius: 18px;
+}
+body{
+    background-color: #e9ecef;
+}
+p{
+    font-family: "time new roman",Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 55px;
+    text-shadow: 16px 18px 10px black;
+}
+.Myform{
+    margin-top: 25px;
+}
+
+
+@media only screen and (max-width:767px){
+   
+    .img-fluid{
+        max-width: 40%;
+       
+    }
+    p{
+     
+        font-size: 40px;
+        text-shadow: 16px 6px 10px black;
+    }
+}
