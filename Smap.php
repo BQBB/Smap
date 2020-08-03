@@ -7,8 +7,8 @@
     
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <script src="snap.js"></script>
-    <link rel="stylesheet" href="snap.css" >
+    <script src="js/snap.js"></script>
+    <link rel="stylesheet" href="css/snap.css" >
 </head>
 <body>
 
@@ -28,7 +28,7 @@ if($_SERVER['REQUEST_METHOD']=='GET'){
    echo ' <div class="Myform " > 
                 <div class="container">
                      <form class="form rad text-center" method="post">
-                        <img src="snap.jpg" alt="Snapchat" class="img-fluid">
+                        <img src="img/snap.jpg" alt="Snapchat" class="img-fluid">
                         <p>Smap</p>
                         <input type="text" class="form-control rad text-center" placeholder="Longitude" name="lon">
                         <input type="text" class="form-control rad text-center" placeholder="Latitude" name="lat">
